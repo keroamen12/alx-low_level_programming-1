@@ -2,9 +2,11 @@
 
 /**
   * _isupper - checks for uppercase character
-  * @c: Variable text
-  * Return: Always 0.
+  * @c: The number to be checked
+  *
+  * Return: 1 for upper letter or 0 for any else
   */
+
 int _isupper(int c)
 {
 	 if (c >= 65 && c <= 90)
